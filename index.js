@@ -17,4 +17,3 @@ server.listen({ port }).then(({ url }) => {
   console.log(`🚀 Gateway ready at ${url}`);
 }).catch(err => {console.error(err)});
 
-server.listen({ port }).then(({ url }) => {
